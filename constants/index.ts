@@ -185,21 +185,35 @@ export const PROJECTS = [
     description:
       "Built a Retrieval-Augmented Generation (RAG) based PDF chatbot that retrieves relevant document content and generates context-aware answers using an LLM. Implemented PDF text extraction, recursive chunking, and semantic embeddings using LangChain and Hugging Face Sentence Transformers, stored in ChromaDB. Developed a FastAPI REST API integrating Groq LLM for grounded, low-hallucination answers.",
     image: "/projects/project-1.png",
-    link: "https://github.com/Harsh2126",
+    link: "https://github.com/Harsh2126/RAG-PIPELINES-PROJECT",
   },
   {
     title: "AI Code Reviewer — GitHub App",
     description:
       "Built a GitHub App that automatically reviews every Pull Request using Groq's LLaMA-3.3-70B model and posts structured markdown feedback covering bugs, security issues, and performance tips. Implemented GitHub JWT authentication and webhook signature verification via Octokit. Built a modular Express.js backend and a React.js analytics dashboard to track review history in real time.",
     image: "/projects/project-2.png",
-    link: "https://github.com/Harsh2126",
+    link: "https://github.com/Harsh2126/ai-review-github-app",
   },
   {
     title: "Bus Booking System",
     description:
       "Developed a full-stack bus ticket booking web application enabling users to search routes, view seat availability, and book tickets online. Designed MongoDB schemas for buses, routes, seats, and bookings with real-time double-booking prevention. Implemented user authentication, an admin panel, and a responsive seat-selection and booking-confirmation flow.",
     image: "/projects/project-3.png",
-    link: "https://github.com/Harsh2126",
+    link: "https://github.com/Harsh2126/Bus_Booking",
+  },
+  {
+    title: "Smart Rate Limiter",
+    description:
+      "Built a production-ready rate limiting middleware for Node.js/Express applications. Supports multiple strategies including fixed window, sliding window, and token bucket algorithms. Features Redis-backed distributed rate limiting, custom response headers, and per-route configuration for scalable API protection.",
+    image: "/projects/project-4.jpg",
+    link: "https://github.com/Harsh2126/smart-rate-limiter",
+  },
+  {
+    title: "MindMap UI",
+    description:
+      "An interactive mind mapping web application for visualizing ideas and concepts. Built with React.js featuring drag-and-drop node creation, dynamic connections, zoom/pan canvas, and export functionality. Designed for students and professionals to organize thoughts visually.",
+    image: "/projects/project-5.png",
+    link: "https://github.com/Harsh2126/mindmap-ui",
   },
 ] as const;
 
