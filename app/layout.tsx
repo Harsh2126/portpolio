@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Inter } from "next/font/google";
+import { Space_Grotesk, Orbitron, Raleway } from "next/font/google";
 import type { PropsWithChildren } from "react";
 
 import { Footer } from "@/components/main/footer";
@@ -10,7 +10,9 @@ import { cn } from "@/lib/utils";
 
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], variable: "--font-space" });
+const orbitron = Orbitron({ subsets: ["latin"], variable: "--font-orbitron", weight: ["700", "800", "900"] });
+const raleway = Raleway({ subsets: ["latin"], variable: "--font-raleway", weight: ["700", "800", "900"] });
 
 export const viewport: Viewport = {
   themeColor: "#030014",
@@ -23,8 +25,10 @@ export default function RootLayout({ children }: PropsWithChildren) {
     <html lang="en">
       <body
         className={cn(
-          "bg-[#030014] overflow-y-scroll overflow-x-hidden",
-          inter.className
+          "bg-[#000000] overflow-y-scroll overflow-x-hidden",
+          spaceGrotesk.className,
+          orbitron.variable,
+          raleway.variable
         )}
       >
         <StarsCanvas />

@@ -6,6 +6,7 @@ import {
   RxTwitterLogo,
   RxLinkedinLogo,
 } from "react-icons/rx";
+import { SiLeetcode } from "react-icons/si";
 
 export const SKILL_DATA = [
   {
@@ -27,50 +28,8 @@ export const SKILL_DATA = [
     height: 65,
   },
   {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
-    width: 80,
-    height: 80,
-  },
-  {
     skill_name: "React",
     image: "react.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Redux",
-    image: "redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React Query",
-    image: "reactquery.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "TypeScript",
-    image: "ts.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Next.js 14",
-    image: "next.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Framer Motion",
-    image: "framer.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Stripe",
-    image: "stripe.png",
     width: 80,
     height: 80,
   },
@@ -81,28 +40,40 @@ export const SKILL_DATA = [
     height: 80,
   },
   {
+    skill_name: "Express.js",
+    image: "express.png",
+    width: 80,
+    height: 80,
+  },
+  {
     skill_name: "MongoDB",
     image: "mongodb.png",
     width: 40,
     height: 40,
   },
+  {
+    skill_name: "MySQL",
+    image: "mysql.png",
+    width: 70,
+    height: 70,
+  },
 ] as const;
 
 export const SOCIALS = [
   {
-    name: "Instagram",
-    icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    name: "LinkedIn",
+    icon: RxLinkedinLogo,
+    link: "https://www.linkedin.com/in/harsh-gupta-652369343",
   },
   {
-    name: "Facebook",
-    icon: FaFacebook,
-    link: "https://facebook.com",
+    name: "GitHub",
+    icon: RxGithubLogo,
+    link: "https://github.com/Harsh2126",
   },
   {
-    name: "Twitter",
-    icon: RxTwitterLogo,
-    link: "https://twitter.com",
+    name: "LeetCode",
+    icon: SiLeetcode,
+    link: "https://leetcode.com/u/harshgupta202/",
   },
 ] as const;
 
@@ -126,43 +97,19 @@ export const FRONTEND_SKILL = [
     height: 65,
   },
   {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Material UI",
-    image: "mui.png",
-    width: 80,
-    height: 80,
-  },
-  {
     skill_name: "React",
     image: "react.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Redux",
-    image: "redux.png",
+    skill_name: "Tailwind CSS",
+    image: "tailwind.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "React Query",
-    image: "reactquery.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "TypeScript",
-    image: "ts.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Next.js 14",
+    skill_name: "Next.js",
     image: "next.png",
     width: 80,
     height: 80,
@@ -189,49 +136,25 @@ export const BACKEND_SKILL = [
     height: 40,
   },
   {
-    skill_name: "Firebase",
-    image: "firebase.png",
-    width: 55,
-    height: 55,
-  },
-  {
-    skill_name: "PostgreSQL",
-    image: "postgresql.png",
-    width: 70,
-    height: 70,
-  },
-  {
     skill_name: "MySQL",
     image: "mysql.png",
     width: 70,
     height: 70,
   },
-  {
-    skill_name: "Prisma",
-    image: "prisma.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Graphql",
-    image: "graphql.png",
-    width: 80,
-    height: 80,
-  },
 ] as const;
 
 export const FULLSTACK_SKILL = [
   {
-    skill_name: "React Native",
-    image: "reactnative.png",
-    width: 70,
-    height: 70,
+    skill_name: "TypeScript",
+    image: "ts.png",
+    width: 80,
+    height: 80,
   },
   {
-    skill_name: "Tauri",
-    image: "tauri.png",
-    width: 70,
-    height: 70,
+    skill_name: "Python",
+    image: "go.png",
+    width: 60,
+    height: 60,
   },
   {
     skill_name: "Docker",
@@ -239,7 +162,6 @@ export const FULLSTACK_SKILL = [
     width: 70,
     height: 70,
   },
-
   {
     skill_name: "Figma",
     image: "figma.png",
@@ -250,75 +172,70 @@ export const FULLSTACK_SKILL = [
 
 export const OTHER_SKILL = [
   {
-    skill_name: "Go",
-    image: "go.png",
-    width: 60,
-    height: 60,
+    skill_name: "GraphQL",
+    image: "graphql.png",
+    width: 80,
+    height: 80,
   },
 ] as const;
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "AI PDF Chatbot — RAG Pipeline",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
+      "Built a Retrieval-Augmented Generation (RAG) based PDF chatbot that retrieves relevant document content and generates context-aware answers using an LLM. Implemented PDF text extraction, recursive chunking, and semantic embeddings using LangChain and Hugging Face Sentence Transformers, stored in ChromaDB. Developed a FastAPI REST API integrating Groq LLM for grounded, low-hallucination answers.",
     image: "/projects/project-1.png",
-    link: "https://example.com",
+    link: "https://github.com/Harsh2126",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "AI Code Reviewer — GitHub App",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
+      "Built a GitHub App that automatically reviews every Pull Request using Groq's LLaMA-3.3-70B model and posts structured markdown feedback covering bugs, security issues, and performance tips. Implemented GitHub JWT authentication and webhook signature verification via Octokit. Built a modular Express.js backend and a React.js analytics dashboard to track review history in real time.",
     image: "/projects/project-2.png",
-    link: "https://example.com",
+    link: "https://github.com/Harsh2126",
   },
   {
-    title: "Space Themed Website",
+    title: "Bus Booking System",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
+      "Developed a full-stack bus ticket booking web application enabling users to search routes, view seat availability, and book tickets online. Designed MongoDB schemas for buses, routes, seats, and bookings with real-time double-booking prevention. Implemented user authentication, an admin panel, and a responsive seat-selection and booking-confirmation flow.",
     image: "/projects/project-3.png",
-    link: "https://example.com",
+    link: "https://github.com/Harsh2126",
   },
 ] as const;
 
 export const FOOTER_DATA = [
   {
-    title: "Community",
+    title: "Connect",
     data: [
-      {
-        name: "YouTube",
-        icon: FaYoutube,
-        link: "https://youtube.com",
-      },
       {
         name: "GitHub",
         icon: RxGithubLogo,
-        link: "https://github.com",
+        link: "https://github.com/Harsh2126",
       },
       {
-        name: "Discord",
-        icon: RxDiscordLogo,
-        link: "https://discord.com",
+        name: "LinkedIn",
+        icon: RxLinkedinLogo,
+        link: "https://www.linkedin.com/in/harsh-gupta-652369343",
+      },
+      {
+        name: "LeetCode",
+        icon: SiLeetcode,
+        link: "https://leetcode.com/u/harshgupta202/",
       },
     ],
   },
   {
-    title: "Social Media",
+    title: "Contact",
     data: [
       {
-        name: "Instagram",
-        icon: RxInstagramLogo,
-        link: "https://instagram.com",
+        name: "harshgupta2026@gmail.com",
+        icon: null,
+        link: "mailto:harshgupta2026@gmail.com",
       },
       {
-        name: "Twitter",
-        icon: RxTwitterLogo,
-        link: "https://twitter.com",
-      },
-      {
-        name: "Linkedin",
-        icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
+        name: "+91 9506600706",
+        icon: null,
+        link: "tel:+919506600706",
       },
     ],
   },
@@ -326,19 +243,19 @@ export const FOOTER_DATA = [
     title: "About",
     data: [
       {
-        name: "Become Sponsor",
+        name: "About Me",
         icon: null,
-        link: "https://youtube.com",
+        link: "#about-me",
       },
       {
-        name: "Learning about me",
+        name: "Projects",
         icon: null,
-        link: "https://example.com",
+        link: "#projects",
       },
       {
-        name: "Contact Me",
+        name: "Skills",
         icon: null,
-        link: "mailto:contact@example.com",
+        link: "#skills",
       },
     ],
   },
@@ -360,5 +277,5 @@ export const NAV_LINKS = [
 ] as const;
 
 export const LINKS = {
-  sourceCode: "https://github.com/sanidhyy/space-portfolio",
+  sourceCode: "https://github.com/Harsh2126",
 };
