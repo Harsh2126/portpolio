@@ -80,20 +80,9 @@ export const Skills = () => {
         ))}
       </div>
 
-      <div className="w-full h-full absolute">
-        <div className="w-full h-full z-[-10] opacity-30 absolute flex items-center justify-center bg-cover">
-          <video
-            className="w-full h-auto"
-            preload="false"
-            playsInline
-            loop
-            muted
-            autoPlay
-          >
-            <source src="/videos/skills-bg.webm" type="video/webm" />
-          </video>
-        </div>
-      </div>
+      {/* Orange theme background glows */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[300px] rounded-full bg-orange-500/5 blur-[120px] -z-10" />
+      <div className="absolute top-0 right-0 w-[400px] h-[400px] rounded-full bg-orange-400/5 blur-[100px] -z-10" />
     </section>
   );
 };
