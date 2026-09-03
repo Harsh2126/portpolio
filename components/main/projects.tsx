@@ -19,7 +19,7 @@ export const Projects = () => {
       <p className="text-gray-400 text-center max-w-[600px] mb-14 text-[16px]">
         Real-world apps built with modern stacks — from AI pipelines to full-stack web systems.
       </p>
-      <div className="h-full w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 max-w-[1200px]">
+      <div className="h-full w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 max-w-[1300px]">
         {PROJECTS.map((project) => (
           <ProjectCard
             key={project.title}

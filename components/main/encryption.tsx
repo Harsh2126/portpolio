@@ -5,7 +5,7 @@ import { slideInFromLeft, slideInFromRight, slideInFromTop } from "@/lib/motion"
 import { SparklesIcon, AcademicCapIcon, BriefcaseIcon } from "@heroicons/react/24/solid";
 
 const STATS = [
-  { label: "Projects Built", value: "3+" },
+  { label: "Projects Built", value: "5+" },
   { label: "Internship", value: "1" },
   { label: "CGPA", value: "7.82" },
   { label: "LeetCode", value: "400+" },
